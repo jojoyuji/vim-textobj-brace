@@ -10,8 +10,8 @@ endif
 call textobj#user#plugin('brace', {
     \ '-': {
     \     '*sfile*': expand('<sfile>:p'),
-    \     'select-a': 'aj',  '*select-a-function*': 's:select_a',
-    \     'select-i': 'ij',  '*select-i-function*': 's:select_i',
+    \     'select-a': 'ab',  '*select-a-function*': 's:select_a',
+    \     'select-i': 'ib',  '*select-i-function*': 's:select_i',
     \ }})
 
 
